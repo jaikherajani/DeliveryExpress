@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "searchContextConfigId" : "00731b9d5b231010d9a5ce1a8581c7dd",
+  "searchTerm" : "mac"
+}</macroponent_config>
+        <screen display_value="Search Page Default">d41ca726cd22301067937d9bbee3de73</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-09-15 17:45:06</sys_created_on>
+        <sys_id>181ca7267e2230108d902185f1ee6773</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_181ca7267e2230108d902185f1ee6773</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-09-15 17:45:06</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
