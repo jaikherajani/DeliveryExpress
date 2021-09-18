@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_651162_deliver_0_stage" version="2" view="New_Booking_View">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_assigned_to</element>
+            <list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-18 05:19:51</sys_created_on>
+            <sys_id>0d4e986f2f2230109e77bcb62799b68c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-18 05:19:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_booking_id</element>
+            <list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-18 05:19:51</sys_created_on>
+            <sys_id>814e986f2f2230109e77bcb62799b68d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-18 05:19:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_end_date</element>
+            <list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-18 05:19:51</sys_created_on>
+            <sys_id>054e986f2f2230109e77bcb62799b68d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-18 05:19:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_stage_name</element>
+            <list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-18 05:19:51</sys_created_on>
+            <sys_id>854e986f2f2230109e77bcb62799b68d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-18 05:19:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_start_date</element>
+            <list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-18 05:19:51</sys_created_on>
+            <sys_id>094e986f2f2230109e77bcb62799b68d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-18 05:19:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_651162_deliver_0_stage</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-18 05:19:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d4e986f2f2230109e77bcb62799b68b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_651162_deliver_0_stage</sys_name>
+            <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+            <sys_update_name>sys_ui_list_x_651162_deliver_0_stage_New_Booking_View</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-18 05:19:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="New Booking" name="New_Booking_View">5837b76e0722301063f9f4218c1ed023</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</application>
+        <file_path/>
+        <instance_id>cb23f1f0db4bbf008aea21c405961975</instance_id>
+        <instance_name>dev90175</instance_name>
+        <name>sys_ui_list_x_651162_deliver_0_stage_New_Booking_View</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_651162_deliver_0_stage" version="2" view="New_Booking_View"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_assigned_to</element><list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-18 05:19:51</sys_created_on><sys_id>0d4e986f2f2230109e77bcb62799b68c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-18 05:19:51</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_booking_id</element><list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-18 05:19:51</sys_created_on><sys_id>814e986f2f2230109e77bcb62799b68d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-18 05:19:51</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_end_date</element><list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-18 05:19:51</sys_created_on><sys_id>054e986f2f2230109e77bcb62799b68d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-18 05:19:51</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_stage_name</element><list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-18 05:19:51</sys_created_on><sys_id>854e986f2f2230109e77bcb62799b68d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-18 05:19:51</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_start_date</element><list_id display_value="x_651162_deliver_0_stage" element="NULL" name="x_651162_deliver_0_stage" parent="NULL" relationship="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">4d4e986f2f2230109e77bcb62799b68b</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-18 05:19:51</sys_created_on><sys_id>094e986f2f2230109e77bcb62799b68d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-18 05:19:51</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_651162_deliver_0_stage</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-18 05:19:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4d4e986f2f2230109e77bcb62799b68b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_651162_deliver_0_stage</sys_name><sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package><sys_policy/><sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope><sys_update_name>sys_ui_list_x_651162_deliver_0_stage_New_Booking_View</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-18 05:19:51</sys_updated_on><sys_user/><view display_value="New Booking" name="New_Booking_View">5837b76e0722301063f9f4218c1ed023</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>2103511874</payload_hash>
+        <record_name>Stage</record_name>
+        <reverted_from/>
+        <source>3c4b85032f2230109e77bcb62799b603</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-18 05:19:51</sys_created_on>
+        <sys_id>054e986f2f2230109e77bcb62799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bf758b6db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-18 05:19:51</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>c14e986f8522301023c95f5cdebfc78f</update_guid>
+        <update_guid_history>c14e986f8522301023c95f5cdebfc78f:2103511874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-18 05:36:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>02a09380ca59497c8006f48244d80a41</sys_id>
+        <sys_metadata>4d4e986f2f2230109e77bcb62799b68b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_651162_deliver_0_stage</sys_name>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_parent display_value="">7676d4a72f2230109e77bcb62799b6da</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_scope_delete display_value="">0f0312b6ed694ac08c801d9513272100</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_651162_deliver_0_stage_New_Booking_View</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_651162_deliver_0_stage_New_Booking_View">054e986f2f2230109e77bcb62799b68f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-18 05:36:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

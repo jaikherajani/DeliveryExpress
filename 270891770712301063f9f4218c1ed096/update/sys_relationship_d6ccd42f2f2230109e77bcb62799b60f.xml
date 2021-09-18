@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_651162_deliver_0_booking</basic_apply_to>
+        <basic_query_from>x_651162_deliver_0_item_details</basic_query_from>
+        <insert_callback/>
+        <name>Booking Items</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('booking_id', parent.sys_id);]]></query_with>
+        <reference_field>booking_id</reference_field>
+        <related_list/>
+        <simple_reference>true</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-18 05:18:35</sys_created_on>
+        <sys_id>d6ccd42f2f2230109e77bcb62799b60f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Booking Items</sys_name>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_update_name>sys_relationship_d6ccd42f2f2230109e77bcb62799b60f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-18 17:10:19</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=d6ccd42f2f2230109e77bcb62799b60f"/>
+</record_update>

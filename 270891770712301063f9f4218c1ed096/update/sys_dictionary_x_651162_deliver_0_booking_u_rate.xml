@@ -6,7 +6,7 @@
         <attributes>omit_sys_original=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Rate</column_label>
@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-17 19:43:41</sys_created_on>
-        <sys_id>d16a5ed30762701063f9f4218c1ed04e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>537618a72f2230109e77bcb62799b67b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Rate</sys_name>
         <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
         <sys_policy/>
         <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
         <sys_update_name>sys_dictionary_x_651162_deliver_0_booking_u_rate</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-17 19:43:42</sys_updated_on>
+        <sys_updated_on>2021-09-18 08:33:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -42,7 +42,7 @@
         <update_guid_history>6b89911cf6623010532e62bc8c83ecda:-813483392</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_651162_deliver_0_booking.x_651162_deliver_0.Admin">5adbefe20722301063f9f4218c1ed099</sys_audit_delete>
+        <sys_audit_delete display_value="">5adbefe20722301063f9f4218c1ed099</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-15 17:44:07</sys_created_on>

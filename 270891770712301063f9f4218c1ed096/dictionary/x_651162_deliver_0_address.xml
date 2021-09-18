@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Address" max_length="40" name="x_651162_deliver_0_address" sizeclass="0" type="collection">
+    <element label="Address" max_length="40" name="x_651162_deliver_0_address" sizeclass="3" type="collection">
         <element label="Address" max_length="200" name="address" type="string"/>
-        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Address ID" max_length="40" name="address_id" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Address ID" max_length="40" name="address_id" read_only="true" type="string"/>
         <element choice="3" label="City" max_length="40" name="city" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Mumbai" sequence="10" value="mumbai"/>

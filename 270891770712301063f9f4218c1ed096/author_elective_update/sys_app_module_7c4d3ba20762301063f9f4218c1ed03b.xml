@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Item Sizes</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_651162_deliver_0_item_sizes</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_651162_deliver_0.item_sizes_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-15 19:00:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c4d3ba20762301063f9f4218c1ed03b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Item Sizes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_update_name>sys_app_module_7c4d3ba20762301063f9f4218c1ed03b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-15 19:00:12</sys_updated_on>
+        <timeline_page/>
+        <title>Item Sizes</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</application>
+        <file_path/>
+        <instance_id>cb23f1f0db4bbf008aea21c405961975</instance_id>
+        <instance_name>dev90175</instance_name>
+        <name>sys_app_module_7c4d3ba20762301063f9f4218c1ed03b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Item Sizes</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_651162_deliver_0_item_sizes</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_651162_deliver_0.item_sizes_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-15 19:00:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7c4d3ba20762301063f9f4218c1ed03b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Item Sizes</sys_name><sys_overrides/><sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package><sys_policy/><sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope><sys_update_name>sys_app_module_7c4d3ba20762301063f9f4218c1ed03b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-15 19:00:12</sys_updated_on><timeline_page/><title>Item Sizes</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-115842675</payload_hash>
+        <record_name>Item Sizes</record_name>
+        <reverted_from/>
+        <source>48c618272f2230109e77bcb62799b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-18 06:17:22</sys_created_on>
+        <sys_id>eb6b206b2f6230109e77bcb62799b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bf78d5e690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-18 06:17:22</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6b6b206b4b6230107f5fbaa68dd08354</update_guid>
+        <update_guid_history>6b6b206b4b6230107f5fbaa68dd08354:0,70969ca7f02230102b95cc0f4fc32082:1275241684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Item Sizes">727b6c2b2f6230109e77bcb62799b668</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-18 06:17:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>11f8f3bc95114c208997716590878900</sys_id>
+        <sys_metadata>7c4d3ba20762301063f9f4218c1ed03b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Item Sizes</sys_name>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_scope_delete display_value="">0f0312b6ed694ac08c801d9513272100</sys_scope_delete>
+        <sys_update_name>sys_app_module_7c4d3ba20762301063f9f4218c1ed03b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7c4d3ba20762301063f9f4218c1ed03b">eb6b206b2f6230109e77bcb62799b654</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-18 06:17:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
