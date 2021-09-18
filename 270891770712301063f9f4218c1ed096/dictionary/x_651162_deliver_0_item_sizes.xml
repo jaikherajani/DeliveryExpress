@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Item Sizes" max_length="40" name="x_651162_deliver_0_item_sizes" sizeclass="4" type="collection">
+        <element display="true" label="Item Size" max_length="40" name="item_size" type="string"/>
+        <element label="Price" max_length="15" name="price" type="currency"/>
+    </element>
+</database>

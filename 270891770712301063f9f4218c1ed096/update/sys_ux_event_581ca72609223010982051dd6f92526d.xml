@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CONTENT_UPDATED_RELAY_141ca7268a2230103b89ad6b20af2b76</event_name>
+        <interfaces/>
+        <label>Content Updated Relay</label>
+        <props>[{"name":"params","label":"Optionals Parameters","fieldType":"json","valueType":"string"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-09-15 17:45:10</sys_created_on>
+        <sys_id>581ca72609223010982051dd6f92526d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Updated Relay</sys_name>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_update_name>sys_ux_event_581ca72609223010982051dd6f92526d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-09-15 17:45:10</sys_updated_on>
+    </sys_ux_event>
+</record_update>

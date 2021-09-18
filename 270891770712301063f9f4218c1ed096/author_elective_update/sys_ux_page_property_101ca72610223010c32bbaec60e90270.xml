@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">c81ca7260722301063f9f4218c1ed021</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">5c1ca726d72230105ab35fd7c8a26965</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-09-15 17:45:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>101ca72610223010c32bbaec60e90270</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_update_name>sys_ux_page_property_101ca72610223010c32bbaec60e90270</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-09-15 17:45:10</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_651162_deliver_0.c81ca7260722301063f9f4218c1ed021.route.chrome_header.5c1ca726d72230105ab35fd7c8a26965</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</application>
+        <file_path/>
+        <instance_id>d110c0b3db20b30042b321c405961927</instance_id>
+        <instance_name>dev79543</instance_name>
+        <name>sys_ux_page_property_101ca72610223010c32bbaec60e90270</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">c81ca7260722301063f9f4218c1ed021</page><required_translations>[]</required_translations><route display_value="Landing Page">5c1ca726d72230105ab35fd7c8a26965</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2021-09-15 17:45:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>101ca72610223010c32bbaec60e90270</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package><sys_policy/><sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope><sys_update_name>sys_ux_page_property_101ca72610223010c32bbaec60e90270</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-09-15 17:45:10</sys_updated_on><type>json</type><unique_name>x_651162_deliver_0.c81ca7260722301063f9f4218c1ed021.route.chrome_header.5c1ca726d72230105ab35fd7c8a26965</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1267848490</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>dc2a84210702301063f9f4218c1ed032</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-08-18 02:12:37</sys_created_on>
+        <sys_id>daa2ff6a0722301063f9f4218c1ed02c</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17b570826080000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>9aa2ff6abb223010aee919e1aaad7f2c</update_guid>
+        <update_guid_history>9aa2ff6abb223010aee919e1aaad7f2c:-1267848490</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-15 18:13:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>16d5699e30a24d78acbe8bed47cd40a4</sys_id>
+        <sys_metadata>101ca72610223010c32bbaec60e90270</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_scope_delete display_value="">0f0312b6ed694ac08c801d9513272100</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_101ca72610223010c32bbaec60e90270</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_101ca72610223010c32bbaec60e90270">daa2ff6a0722301063f9f4218c1ed02c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-15 18:13:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

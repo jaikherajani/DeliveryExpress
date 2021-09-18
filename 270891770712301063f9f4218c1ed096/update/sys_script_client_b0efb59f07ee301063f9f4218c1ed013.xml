@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Based on user selected item size, populate its price in the price field</description>
+        <field>u_item_size</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate price field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if ((isLoading && oldValue) || newValue === '') {
+        jslog('no changes in price');
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    jslog("item size sys_id : " + newValue);
+    var ga = new GlideAjax('DeliveryExpressUtils');
+    ga.addParam('sysparm_name', 'getItemPrice');
+    ga.addParam('sysparm_item_id', newValue);
+    ga.getXMLAnswer(showAlert);
+
+    function showAlert(answer) {
+        //alert(answer);
+        //g_form.setValue('u_price', answer);
+        var currency_amount = parseInt(answer);
+		var currency_code = 'USD';
+		g_form.setValue('u_rate', currency_code + ';' + currency_amount);
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-17 18:04:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0efb59f07ee301063f9f4218c1ed013</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Populate price field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_update_name>sys_script_client_b0efb59f07ee301063f9f4218c1ed013</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-17 19:44:32</sys_updated_on>
+        <table>x_651162_deliver_0_booking</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Item Details" language="en" table="x_651162_deliver_0_item_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Item Details</label>
+            <language>en</language>
+            <name>x_651162_deliver_0_item_details</name>
+            <plural>Item Details</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-08 07:22:44</sys_created_on>
+            <sys_id>677a1d9c0762301063f9f4218c1ed00a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Item Details</sys_name>
+            <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+            <sys_update_name>sys_documentation_x_651162_deliver_0_item_details__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-08 07:22:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
