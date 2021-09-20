@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Item Details" max_length="40" name="x_651162_deliver_0_item_details" sizeclass="1" type="collection">
-        <element label="Booking ID" max_length="32" name="booking_id" reference="x_651162_deliver_0_booking" type="reference"/>
+    <element label="Item Details" max_length="40" name="x_651162_deliver_0_item_details" sizeclass="28" type="collection">
+        <element label="Booking ID" max_length="32" name="booking_id" read_only="true" reference="x_651162_deliver_0_booking" type="reference"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Item ID" max_length="40" name="item_id" read_only="true" type="integer"/>
+        <element label="Price" max_length="20" name="price" read_only="true" type="currency"/>
         <element choice="3" label="Size" max_length="40" name="size" reference="x_651162_deliver_0_item_sizes" type="reference">
             <choice>
-                <element inactive_on_update="false" label="Letter" sequence="10" value="letter"/>
-                <element inactive_on_update="false" label="Small Box" sequence="20" value="small_box"/>
-                <element inactive_on_update="false" label="Medium Box" sequence="30" value="medium_box"/>
-                <element inactive_on_update="false" label="Large Box" sequence="40" value="large_box"/>
+                <element inactive="true" inactive_on_update="true" label="Letter" sequence="0" value="letter"/>
+                <element inactive="true" inactive_on_update="true" label="Small Box" sequence="1" value="small_box"/>
+                <element inactive="true" inactive_on_update="true" label="Medium Box" sequence="2" value="medium_box"/>
+                <element inactive="true" inactive_on_update="true" label="Large Box" sequence="3" value="large_box"/>
             </choice>
         </element>
-        <element label="Weight" max_length="40" name="weight" type="integer"/>
         <index name="index">
             <element name="booking_id"/>
         </index>

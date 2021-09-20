@@ -20,13 +20,13 @@
             <sys_created_on>2021-09-15 18:33:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1c37b76e0722301063f9f4218c1ed061</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>a437b76e0722301063f9f4218c1ed065</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_651162_deliver_0_booking" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">5037b76e0722301063f9f4218c1ed05e</sys_ui_form>
-            <sys_ui_section caption="Item Details" display_value="Item Details" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">d437b76e0722301063f9f4218c1ed05b</sys_ui_section>
+            <sys_ui_section caption="Sender Details" display_value="Sender Details" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">d037b76e0722301063f9f4218c1ed05c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-15 18:33:42</sys_updated_on>
+            <sys_updated_on>2021-09-19 18:26:05</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -34,27 +34,13 @@
             <sys_created_on>2021-09-15 18:33:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a437b76e0722301063f9f4218c1ed065</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_651162_deliver_0_booking" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">5037b76e0722301063f9f4218c1ed05e</sys_ui_form>
-            <sys_ui_section caption="Sender Details" display_value="Sender Details" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">d037b76e0722301063f9f4218c1ed05c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-15 18:33:42</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-15 18:33:42</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>2437b76e0722301063f9f4218c1ed075</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_651162_deliver_0_booking" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">5037b76e0722301063f9f4218c1ed05e</sys_ui_form>
             <sys_ui_section caption="Receiver Details" display_value="Receiver Details" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">dc37b76e0722301063f9f4218c1ed05c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-15 18:33:42</sys_updated_on>
+            <sys_updated_on>2021-09-19 18:26:05</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_651162_deliver_0_booking</name>

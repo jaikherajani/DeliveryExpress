@@ -2,18 +2,33 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_651162_deliver_0_state_details" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_id</element>
-            <list_id display_value="x_651162_deliver_0_state_details" element="NULL" name="x_651162_deliver_0_state_details" parent="NULL" relationship="NULL" sys_domain="global" view="ecac70436d2220100acb70b3534330c3">5cb324a32f6230109e77bcb62799b6ca</list_id>
+            <element>booking_id.booking_id</element>
+            <list_id display_value="x_651162_deliver_0_state_details" element="NULL" name="x_651162_deliver_0_state_details" parent="NULL" relationship="NULL" sys_domain="global" view="ecac70436d2220100acb70b3534330c3">b9a91f672faa30109e77bcb62799b6cc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-18 05:43:34</sys_created_on>
-            <sys_id>1cb324a32f6230109e77bcb62799b6cb</sys_id>
+            <sys_created_on>2021-09-18 18:58:34</sys_created_on>
+            <sys_id>75a91f672faa30109e77bcb62799b6cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-18 05:43:34</sys_updated_on>
+            <sys_updated_on>2021-09-18 18:58:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state_name.state_name</element>
+            <list_id display_value="x_651162_deliver_0_state_details" element="NULL" name="x_651162_deliver_0_state_details" parent="NULL" relationship="NULL" sys_domain="global" view="ecac70436d2220100acb70b3534330c3">b9a91f672faa30109e77bcb62799b6cc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-18 18:58:34</sys_created_on>
+            <sys_id>f5a91f672faa30109e77bcb62799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-18 18:58:34</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +42,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-18 05:43:34</sys_created_on>
+            <sys_created_on>2021-09-18 18:58:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5cb324a32f6230109e77bcb62799b6ca</sys_id>
+            <sys_id>b9a91f672faa30109e77bcb62799b6cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_651162_deliver_0_state_details</sys_name>
             <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
@@ -38,7 +53,7 @@
             <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
             <sys_update_name>sys_ui_list_x_651162_deliver_0_state_details_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-18 05:43:34</sys_updated_on>
+            <sys_updated_on>2021-09-18 18:58:34</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">ecac70436d2220100acb70b3534330c3</view>
             <view_name/>

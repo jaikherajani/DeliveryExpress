@@ -1,42 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Booking" max_length="40" name="x_651162_deliver_0_booking" sizeclass="3" type="collection">
+    <element label="Booking" max_length="40" name="x_651162_deliver_0_booking" sizeclass="29" type="collection">
         <element label="Actual Delivery Date" max_length="40" name="actual_delivery_date" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Booking ID" max_length="40" name="booking_id" read_only="true" type="integer"/>
         <element label="Current State" max_length="32" name="current_state" reference="x_651162_deliver_0_state_details" type="reference"/>
         <element label="From" mandatory="true" max_length="32" name="from" reference="x_651162_deliver_0_address" reference_qual="javascript:&quot;customer_id=&quot;+current.sender" type="reference" use_reference_qualifier="advanced"/>
-        <element label="Item ID" max_length="32" name="item_id" reference="x_651162_deliver_0_item_details" type="reference"/>
         <element label="Receiver" mandatory="true" max_length="32" name="receiver" reference="x_651162_deliver_0_customer" type="reference"/>
         <element label="Sender" mandatory="true" max_length="32" name="sender" reference="x_651162_deliver_0_customer" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Tentative Delivery Date" max_length="40" name="tentative_delivery_date" type="glide_date_time"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.to.getAttribute('city');  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="To" mandatory="true" max_length="32" name="to" reference="x_651162_deliver_0_address" reference_qual="javascript:&quot;customer_id=&quot;+current.receiver" type="reference" use_reference_qualifier="advanced"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_1" reference="x_651162_deliver_0_customer" type="glide_list"/>
-        <element attributes="encode_utf8=false,ref_auto_completer=AJAXReferenceChoice" choice="3" label="Item Size" mandatory="true" max_length="40" name="u_item_size" reference="x_651162_deliver_0_item_sizes" type="reference">
-            <choice/>
-        </element>
-        <element attributes="omit_sys_original=true" label="Rate" max_length="20" name="u_rate" read_only="true" type="currency"/>
+        <element attributes="encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.current_state.state_name;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Current State" max_length="32" name="u_current_state" reference="x_651162_deliver_0_booking" reference_qual="javascript:&quot;booking_id=&quot;+current.booking_id" type="reference" use_reference_qualifier="advanced" virtual="true"/>
+        <element attributes="omit_sys_original=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.u_total;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total" max_length="20" name="u_total" read_only="true" type="currency"/>
         <index name="index">
             <element name="receiver"/>
         </index>
         <index name="index2">
-            <element name="item_id"/>
-        </index>
-        <index name="index3">
             <element name="sender"/>
         </index>
-        <index name="index4">
-            <element name="u_item_size"/>
-        </index>
-        <index name="index5">
+        <index name="index3">
             <element name="current_state"/>
         </index>
-        <index name="index6">
+        <index name="index4">
+            <element name="u_current_state"/>
+        </index>
+        <index name="index5">
             <element name="from"/>
         </index>
-        <index name="index7">
+        <index name="index6">
             <element name="to"/>
         </index>
-        <index name="index8">
+        <index name="index7">
             <element name="sys_class_name"/>
         </index>
     </element>

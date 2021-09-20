@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_651162_deliver_0_booking" relationship="d6ccd42f2f2230109e77bcb62799b60f" sys_domain="global" table="x_651162_deliver_0_item_details" version="2" view="New_Booking_View">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>booking_id</element>
+            <list_id display_value="x_651162_deliver_0_item_details" element="NULL" name="x_651162_deliver_0_item_details" parent="x_651162_deliver_0_booking" relationship="d6ccd42f2f2230109e77bcb62799b60f" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">3ff164442fba70109e77bcb62799b6c1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-19 18:53:07</sys_created_on>
+            <sys_id>fbf164442fba70109e77bcb62799b6c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-19 18:53:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>item_id</element>
+            <list_id display_value="x_651162_deliver_0_item_details" element="NULL" name="x_651162_deliver_0_item_details" parent="x_651162_deliver_0_booking" relationship="d6ccd42f2f2230109e77bcb62799b60f" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">3ff164442fba70109e77bcb62799b6c1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-19 18:53:07</sys_created_on>
+            <sys_id>400264442fba70109e77bcb62799b6c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-19 18:53:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>size</element>
+            <list_id display_value="x_651162_deliver_0_item_details" element="NULL" name="x_651162_deliver_0_item_details" parent="x_651162_deliver_0_booking" relationship="d6ccd42f2f2230109e77bcb62799b60f" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">3ff164442fba70109e77bcb62799b6c1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-19 18:53:07</sys_created_on>
+            <sys_id>c00264442fba70109e77bcb62799b6c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-19 18:53:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>price</element>
+            <list_id display_value="x_651162_deliver_0_item_details" element="NULL" name="x_651162_deliver_0_item_details" parent="x_651162_deliver_0_booking" relationship="d6ccd42f2f2230109e77bcb62799b60f" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">3ff164442fba70109e77bcb62799b6c1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-19 18:53:07</sys_created_on>
+            <sys_id>440264442fba70109e77bcb62799b6c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-19 18:53:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_651162_deliver_0_item_details</name>
+            <parent>x_651162_deliver_0_booking</parent>
+            <position/>
+            <relationship display_value="Booking Items">d6ccd42f2f2230109e77bcb62799b60f</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-19 18:53:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ff164442fba70109e77bcb62799b6c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_651162_deliver_0_item_details</sys_name>
+            <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+            <sys_update_name>sys_ui_list_x_651162_deliver_0_booking_d6ccd42f2f2230109e77bcb62799b60f_New_Booking_View</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-19 18:53:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="New Booking" name="New_Booking_View">5837b76e0722301063f9f4218c1ed023</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

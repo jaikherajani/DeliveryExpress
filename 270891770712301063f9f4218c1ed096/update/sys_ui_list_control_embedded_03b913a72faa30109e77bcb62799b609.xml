@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control_embedded">
+    <sys_ui_list_control_embedded action="INSERT_OR_UPDATE">
+        <columns_condition/>
+        <empty_condition/>
+        <label>Items in a booking</label>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_ref_qual_tag/>
+        <name>x_651162_deliver_0_booking</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <related_list>REL:d6ccd42f2f2230109e77bcb62799b60f</related_list>
+        <sys_class_name>sys_ui_list_control_embedded</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-18 18:59:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03b913a72faa30109e77bcb62799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_651162_deliver_0_booking</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_update_name>sys_ui_list_control_embedded_03b913a72faa30109e77bcb62799b609</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-18 18:59:14</sys_updated_on>
+    </sys_ui_list_control_embedded>
+</record_update>

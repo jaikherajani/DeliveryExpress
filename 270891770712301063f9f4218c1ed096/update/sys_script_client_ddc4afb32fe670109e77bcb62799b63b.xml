@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Show Hide various fields and run script includes based on form changes.</description>
+        <field>actual_delivery_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Flow Manager</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+	var booking_id = g_form.getValue('booking_id');
+	jslog('booking id from form : '+ booking_id);
+    var ga = new GlideAjax('x_651162_deliver_0.DeliveryExpressUtils');
+    ga.addParam('sysparm_name', 'getCurrentState');
+    ga.addParam('sysparm_booking_id', booking_id);
+    ga.getXMLAnswer(process);
+
+    function process(response) {
+		var obj = JSON.parse(response);
+		jslog('response : '+JSON.stringify(response));
+		jslog('parsed response : '+obj[0].sys_id + ', ' + obj[0].state_name);
+		controlForm(obj[0].state_name.toString());
+    }
+	
+	function controlForm(current_state) {
+		switch (current_state) {
+			case 'New':
+				
+				break;
+				
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-19 15:07:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ddc4afb32fe670109e77bcb62799b63b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Flow Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
+        <sys_update_name>sys_script_client_ddc4afb32fe670109e77bcb62799b63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-19 16:36:13</sys_updated_on>
+        <table>x_651162_deliver_0_booking</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

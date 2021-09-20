@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_rate" table="x_651162_deliver_0_booking">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_total" table="x_651162_deliver_0_booking">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes>omit_sys_original=true</attributes>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return current.u_total;  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Rate</column_label>
+        <column_label>Total</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_rate</element>
+        <element>u_total</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-09-17 19:43:41</sys_created_on>
-        <sys_id>537618a72f2230109e77bcb62799b67b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Rate</sys_name>
+        <sys_created_on>2021-09-19 18:11:46</sys_created_on>
+        <sys_id>8288904c2f7a70109e77bcb62799b64c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Total</sys_name>
         <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
         <sys_policy/>
         <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
-        <sys_update_name>sys_dictionary_x_651162_deliver_0_booking_u_rate</sys_update_name>
+        <sys_update_name>sys_dictionary_x_651162_deliver_0_booking_u_total</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-18 08:33:52</sys_updated_on>
+        <sys_updated_on>2021-09-19 18:21:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

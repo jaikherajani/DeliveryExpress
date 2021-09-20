@@ -4,27 +4,69 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-18 10:15:29</sys_created_on>
-            <sys_id>e3e165a72f2630109e77bcb62799b6b7</sys_id>
+            <sys_created_on>2021-09-19 18:12:14</sys_created_on>
+            <sys_id>81a8144c2f7a70109e77bcb62799b617</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Delivery Process">1a50e4ef2f2230109e77bcb62799b62e</sys_ui_formatter>
             <sys_ui_section caption="Booking" display_value="Booking" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">b3df10ef2f2230109e77bcb62799b646</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-18 10:15:29</sys_updated_on>
+            <sys_updated_on>2021-09-19 18:12:14</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>booking_id</element>
+            <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-18 10:15:29</sys_created_on>
-            <sys_id>6be165a72f2630109e77bcb62799b6b7</sys_id>
+            <sys_created_on>2021-09-19 18:12:14</sys_created_on>
+            <sys_id>09a8144c2f7a70109e77bcb62799b617</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Booking" display_value="Booking" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">b3df10ef2f2230109e77bcb62799b646</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-18 10:15:29</sys_updated_on>
+            <sys_updated_on>2021-09-19 18:12:14</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>booking_id</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-19 18:12:14</sys_created_on>
+            <sys_id>89a8144c2f7a70109e77bcb62799b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Booking" display_value="Booking" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">b3df10ef2f2230109e77bcb62799b646</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-19 18:12:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-19 18:12:14</sys_created_on>
+            <sys_id>0da8144c2f7a70109e77bcb62799b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Booking" display_value="Booking" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">b3df10ef2f2230109e77bcb62799b646</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-19 18:12:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_total</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-19 18:12:14</sys_created_on>
+            <sys_id>8da8144c2f7a70109e77bcb62799b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Booking" display_value="Booking" name="x_651162_deliver_0_booking" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">b3df10ef2f2230109e77bcb62799b646</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-19 18:12:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
     <sys_process_flow action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_651162_deliver_0_booking">current_state=7ea4e8e32f6230109e77bcb62799b637^EQ<item endquery="false" field="current_state" goto="false" newquery="false" operator="=" or="false" value="7ea4e8e32f6230109e77bcb62799b637"/>
+        <condition table="x_651162_deliver_0_booking">current_state.state_name.sys_id=88a460e32f6230109e77bcb62799b6fa^EQ<item endquery="false" field="current_state.state_name.sys_id" goto="false" newquery="false" operator="=" or="false" value="88a460e32f6230109e77bcb62799b6fa"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
@@ -12,14 +12,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-18 05:57:41</sys_created_on>
         <sys_id>88d66c272f6230109e77bcb62799b6ab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Delivered</sys_name>
         <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
         <sys_policy/>
         <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
         <sys_update_name>sys_process_flow_88d66c272f6230109e77bcb62799b6ab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-18 05:57:41</sys_updated_on>
+        <sys_updated_on>2021-09-19 05:50:56</sys_updated_on>
         <table>x_651162_deliver_0_booking</table>
     </sys_process_flow>
 </record_update>

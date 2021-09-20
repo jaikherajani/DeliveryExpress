@@ -2,17 +2,17 @@
     <sys_ui_related sys_domain="global" table="x_651162_deliver_0_booking" version="2" view="New_Booking_View">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Booking - New Booking" name="x_651162_deliver_0_booking" related_list="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">dc71a9672f2630109e77bcb62799b698</list_id>
+            <list_id display_value="Booking - New Booking" name="x_651162_deliver_0_booking" related_list="NULL" sys_domain="global" view="5837b76e0722301063f9f4218c1ed023">fa2f5c802fba70109e77bcb62799b6c3</list_id>
             <order_by/>
             <position>0</position>
-            <related_list/>
+            <related_list>REL:d6ccd42f2f2230109e77bcb62799b60f</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-18 10:13:21</sys_created_on>
-            <sys_id>d871a9672f2630109e77bcb62799b699</sys_id>
+            <sys_created_on>2021-09-19 18:40:46</sys_created_on>
+            <sys_id>fa2f5c802fba70109e77bcb62799b6c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-18 10:13:21</sys_updated_on>
+            <sys_updated_on>2021-09-19 18:40:46</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Booking - New Booking</calculated_name>
@@ -23,10 +23,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-18 10:13:21</sys_created_on>
+            <sys_created_on>2021-09-19 18:40:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>dc71a9672f2630109e77bcb62799b698</sys_id>
+            <sys_id>fa2f5c802fba70109e77bcb62799b6c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Booking - New Booking</sys_name>
             <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
@@ -34,7 +34,7 @@
             <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
             <sys_update_name>sys_ui_related_x_651162_deliver_0_booking_New_Booking_View</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-18 10:13:21</sys_updated_on>
+            <sys_updated_on>2021-09-19 18:40:45</sys_updated_on>
             <sys_user/>
             <view display_value="New Booking" name="New_Booking_View">5837b76e0722301063f9f4218c1ed023</view>
             <view_name/>
