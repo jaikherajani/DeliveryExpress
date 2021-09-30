@@ -88,19 +88,22 @@ DeliveryExpressUtils.prototype = Object.extendsObject(global.AbstractAjaxProcess
         }
         return null;
     },
+    getBooking: function(b_id) {
+        gs.info('b_id inside getBooking() : ' + b_id);
+    },
     type: 'DeliveryExpressUtils'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-17 18:25:26</sys_created_on>
         <sys_id>12f74e170722701063f9f4218c1ed0f2</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>DeliveryExpressUtils</sys_name>
         <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
         <sys_policy/>
         <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
         <sys_update_name>sys_script_include_12f74e170722701063f9f4218c1ed0f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-19 17:11:49</sys_updated_on>
+        <sys_updated_on>2021-09-20 10:41:06</sys_updated_on>
     </sys_script_include>
 </record_update>

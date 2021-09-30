@@ -2,18 +2,48 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_651162_deliver_0_customer" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>customer_id</element>
-            <list_id display_value="x_651162_deliver_0_customer" element="NULL" name="x_651162_deliver_0_customer" parent="NULL" relationship="NULL" sys_domain="global" view="ecac70436d2220100acb70b3534330c3">ba85847a0762301063f9f4218c1ed092</list_id>
+            <element>name</element>
+            <list_id display_value="x_651162_deliver_0_customer" element="NULL" name="x_651162_deliver_0_customer" parent="NULL" relationship="NULL" sys_domain="global" view="ecac70436d2220100acb70b3534330c3">5368a21b2f7230109e77bcb62799b689</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-15 19:36:23</sys_created_on>
-            <sys_id>f685847a0762301063f9f4218c1ed093</sys_id>
+            <sys_created_on>2021-09-30 07:00:42</sys_created_on>
+            <sys_id>1368a21b2f7230109e77bcb62799b68a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-15 19:36:23</sys_updated_on>
+            <sys_updated_on>2021-09-30 07:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>email</element>
+            <list_id display_value="x_651162_deliver_0_customer" element="NULL" name="x_651162_deliver_0_customer" parent="NULL" relationship="NULL" sys_domain="global" view="ecac70436d2220100acb70b3534330c3">5368a21b2f7230109e77bcb62799b689</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-30 07:00:42</sys_created_on>
+            <sys_id>9768a21b2f7230109e77bcb62799b68a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-30 07:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mobile</element>
+            <list_id display_value="x_651162_deliver_0_customer" element="NULL" name="x_651162_deliver_0_customer" parent="NULL" relationship="NULL" sys_domain="global" view="ecac70436d2220100acb70b3534330c3">5368a21b2f7230109e77bcb62799b689</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-30 07:00:42</sys_created_on>
+            <sys_id>1b68a21b2f7230109e77bcb62799b68a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-30 07:00:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +57,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-15 19:36:23</sys_created_on>
+            <sys_created_on>2021-09-30 07:00:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ba85847a0762301063f9f4218c1ed092</sys_id>
+            <sys_id>5368a21b2f7230109e77bcb62799b689</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_651162_deliver_0_customer</sys_name>
             <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
@@ -38,7 +68,7 @@
             <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
             <sys_update_name>sys_ui_list_x_651162_deliver_0_customer_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-15 19:36:23</sys_updated_on>
+            <sys_updated_on>2021-09-30 07:00:42</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">ecac70436d2220100acb70b3534330c3</view>
             <view_name/>

@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.canWrite()</condition>
+        <condition>current.canWrite() &amp;&amp; current.current_state.state_name.state_name!='Delivered'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -34,9 +34,9 @@ var ga = new GlideRecord('x_651162_deliver_0_state_details');
 ga.addQuery('sys_id', c_state);
 ga.setLimit(1);
 ga.query();
-
+gs.info('state_name : ' + current.current_state.state_name.state_name);
 while (ga.next()) {
-	c_state = ga.getValue('state_name').toString();
+    c_state = ga.getValue('state_name').toString();
 }
 
 gs.info('existing state : ' + c_state);
@@ -60,7 +60,7 @@ switch (c_state) {
 }
 var gr = new GlideRecord('x_651162_deliver_0_state_details');
 gr.newRecord();
-gr.setValue('booking_id', current.booking_id);
+gr.setValue('booking_id', current.sys_id);
 gr.setValue('state_name', t_state);
 gr.insert();
 
@@ -79,7 +79,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1cb38c882f3a70109e77bcb62799b692</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Next</sys_name>
         <sys_overrides display_value="Update">42df02e20a0a0b340080e61b551f2909</sys_overrides>
         <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
@@ -87,7 +87,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
         <sys_update_name>sys_ui_action_1cb38c882f3a70109e77bcb62799b692</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-19 21:05:01</sys_updated_on>
+        <sys_updated_on>2021-09-30 12:12:09</sys_updated_on>
         <table>x_651162_deliver_0_booking</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

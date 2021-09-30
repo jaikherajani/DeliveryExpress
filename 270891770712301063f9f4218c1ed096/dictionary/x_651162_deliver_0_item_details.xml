@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Item Details" max_length="40" name="x_651162_deliver_0_item_details" sizeclass="28" type="collection">
+    <element label="Item Details" max_length="40" name="x_651162_deliver_0_item_details" sizeclass="68" type="collection">
         <element label="Booking ID" max_length="32" name="booking_id" read_only="true" reference="x_651162_deliver_0_booking" type="reference"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Item ID" max_length="40" name="item_id" read_only="true" type="integer"/>
         <element label="Price" max_length="20" name="price" read_only="true" type="currency"/>

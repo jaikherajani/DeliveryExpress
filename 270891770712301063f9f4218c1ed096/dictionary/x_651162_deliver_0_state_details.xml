@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="State Details" max_length="40" name="x_651162_deliver_0_state_details" sizeclass="29" type="collection">
+    <element label="State Details" max_length="40" name="x_651162_deliver_0_state_details" sizeclass="62" type="collection">
         <element label="Booking ID" max_length="32" name="booking_id" reference="x_651162_deliver_0_booking" type="reference"/>
         <element default="f9f3a0e32f6230109e77bcb62799b66a" display="true" label="State Name" max_length="32" name="state_name" reference="x_651162_deliver_0_state" type="reference"/>
         <index name="index">

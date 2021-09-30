@@ -48,7 +48,7 @@
         while (ga.next()) {
             sum += parseFloat(ga.getAggregate('SUM', 'price'));
         }
-		gr.setValue('u_total', ga.getAggregate('SUM', 'price'));
+		gr.setValue('u_total', sum);
 		gr.update();
     }
 
@@ -59,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5b8e8882fba70109e77bcb62799b6bc</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Total price of parent order</sys_name>
         <sys_overrides/>
         <sys_package display_value="DeliveryExpress" source="x_651162_deliver_0">270891770712301063f9f4218c1ed096</sys_package>
@@ -67,7 +67,7 @@
         <sys_scope display_value="DeliveryExpress">270891770712301063f9f4218c1ed096</sys_scope>
         <sys_update_name>sys_script_e5b8e8882fba70109e77bcb62799b6bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-19 20:06:30</sys_updated_on>
+        <sys_updated_on>2021-09-20 11:56:54</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
